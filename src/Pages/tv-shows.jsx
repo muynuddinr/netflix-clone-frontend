@@ -44,6 +44,7 @@ const TVShows = () => {
     genre: "Romance"
   };
 
+  // Updated TV shows with genres for proper filtering
   const tvShows = {
     tvDramas: {
       title: "TV Dramas",
@@ -51,28 +52,34 @@ const TVShows = () => {
         {
           title: "The Royals",
           image: "https://image.tmdb.org/t/p/w500/4LrF5lohh4nP2PkZwpEqXhIhVnm.jpg",
-          tag: "Recently added"
+          tag: "Recently added",
+          genres: ["Dramas", "British"]
         },
         {
           title: "Stranger Things",
-          image: "https://image.tmdb.org/t/p/w500/56v2KjBlU4XaOv9rVYEQypROD7P.jpg"
+          image: "https://image.tmdb.org/t/p/w500/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+          genres: ["Sci-Fi & Fantasy", "Horror", "Dramas"]
         },
         {
           title: "Locke & Key",
-          image: "https://image.tmdb.org/t/p/w500/zuxGfRKziGHPogipnEXXykdDmyT.jpg"
+          image: "https://image.tmdb.org/t/p/w500/zuxGfRKziGHPogipnEXXykdDmyT.jpg",
+          genres: ["Sci-Fi & Fantasy", "Dramas"]
         },
         {
           title: "All of Us Are Dead",
-          image: "https://image.tmdb.org/t/p/w500/pTEFqAjLd5YTsMD6NSUxV6Dq7A6.jpg"
+          image: "https://image.tmdb.org/t/p/w500/pTEFqAjLd5YTsMD6NSUxV6Dq7A6.jpg",
+          genres: ["Asian", "Horror", "Dramas"]
         },
         {
           title: "Happiness",
           image: "https://image.tmdb.org/t/p/w500/gzxwRzBBGXesq4uVo7Jz2Rj5OvY.jpg",
-          tag: "Recently added"
+          tag: "Recently added",
+          genres: ["Asian", "Dramas", "Romance"]
         },
         {
           title: "Narcos",
-          image: "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5nEWNtHoA4B2mBHF.jpg"
+          image: "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5nEWNtHoA4B2mBHF.jpg",
+          genres: ["Crime", "Dramas", "Action"]
         }
       ]
     },
@@ -82,20 +89,24 @@ const TVShows = () => {
         {
           title: "Queen of Tears",
           image: "https://image.tmdb.org/t/p/w500/2akQNQN7fmqWq6jYJMB3UNSQxJ1.jpg",
-          tag: "New"
+          tag: "New",
+          genres: ["Asian", "Romance", "Dramas"]
         },
         {
           title: "Stranger Things",
           image: "https://image.tmdb.org/t/p/w500/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-          tag: "Top 10"
+          tag: "Top 10",
+          genres: ["Sci-Fi & Fantasy", "Horror", "Dramas"]
         },
         {
           title: "Wednesday",
-          image: "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg"
+          image: "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+          genres: ["Sci-Fi & Fantasy", "Comedies"]
         },
         {
           title: "The Witcher",
-          image: "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg"
+          image: "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+          genres: ["Action", "Sci-Fi & Fantasy"]
         }
       ]
     },
@@ -104,19 +115,23 @@ const TVShows = () => {
       items: [
         {
           title: "Bridgerton",
-          image: "https://image.tmdb.org/t/p/w500/6A5D5bJP2y2aYpOYJPLJXF4xXUK.jpg"
+          image: "https://image.tmdb.org/t/p/w500/6A5D5bJP2y2aYpOYJPLJXF4xXUK.jpg",
+          genres: ["Romance", "Dramas", "British"]
         },
         {
           title: "Money Heist",
-          image: "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+          image: "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+          genres: ["Crime", "Action", "Thrillers"]
         },
         {
           title: "Squid Game",
-          image: "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
+          image: "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+          genres: ["Asian", "Thrillers", "Action"]
         },
         {
           title: "The Crown",
-          image: "https://image.tmdb.org/t/p/w500/hQwvVmqXhJP6LhKv6qEHBbhxeAf.jpg"
+          image: "https://image.tmdb.org/t/p/w500/hQwvVmqXhJP6LhKv6qEHBbhxeAf.jpg",
+          genres: ["British", "Dramas"]
         }
       ]
     },
@@ -126,20 +141,24 @@ const TVShows = () => {
         {
           title: "Avatar: The Last Airbender",
           image: "https://image.tmdb.org/t/p/w500/znUYFf0Sez5lUmxPr3Bg9B1fkX9.jpg",
-          tag: "New"
+          tag: "New",
+          genres: ["Anime", "Action", "Sci-Fi & Fantasy"]
         },
         {
           title: "3 Body Problem",
           image: "https://image.tmdb.org/t/p/w500/kqF4qrE3rR4BHZxYwxZumVGzHqn.jpg",
-          tag: "New"
+          tag: "New",
+          genres: ["Sci-Fi & Fantasy", "Dramas"]
         },
         {
           title: "Griselda",
-          image: "https://image.tmdb.org/t/p/w500/tiIfz7pRPIvGBP9wBZzVAQkujHy.jpg"
+          image: "https://image.tmdb.org/t/p/w500/tiIfz7pRPIvGBP9wBZzVAQkujHy.jpg",
+          genres: ["Crime", "Dramas"]
         },
         {
           title: "One Piece",
-          image: "https://image.tmdb.org/t/p/w500/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg"
+          image: "https://image.tmdb.org/t/p/w500/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg",
+          genres: ["Anime", "Action", "Comedies"]
         }
       ]
     },
@@ -149,46 +168,57 @@ const TVShows = () => {
         {
           title: "Stranger Things",
           image: "https://image.tmdb.org/t/p/w500/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-          rank: 1
+          rank: 1,
+          genres: ["Sci-Fi & Fantasy", "Horror", "Dramas"]
         },
         {
           title: "Squid Game",
           image: "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-          rank: 2
+          rank: 2,
+          genres: ["Asian", "Thrillers", "Action"]
         },
         {
           title: "The Witcher",
           image: "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
-          rank: 3
+          rank: 3,
+          genres: ["Action", "Sci-Fi & Fantasy"]
         },
         {
           title: "Money Heist",
           image: "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
-          rank: 4
+          rank: 4,
+          genres: ["Crime", "Action", "Thrillers"]
         },
         {
           title: "Wednesday",
           image: "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
-          rank: 5
+          rank: 5,
+          genres: ["Sci-Fi & Fantasy", "Comedies"]
         }
       ]
     }
   };
 
-  // Filter shows based on selected genre
+  // Improved filter function to work with genre arrays
   const filterShowsByGenre = (category) => {
     if (selectedGenre === 'All Genres') {
       return category;
     }
     
     const filteredItems = category.items.filter(item => 
-      item.genre === selectedGenre || !item.genre
+      item.genres && item.genres.includes(selectedGenre)
     );
     
+    // If no items match filter, return empty array for this category
     return {
       ...category,
-      items: filteredItems.length ? filteredItems : []
+      items: filteredItems
     };
+  };
+
+  // Function to check if a category has items after filtering
+  const hasCategoryItems = (category) => {
+    return category.items && category.items.length > 0;
   };
 
   // Horizontal scroll functionality
@@ -242,6 +272,9 @@ const TVShows = () => {
 
   // Netflix-style content row with horizontal scrolling
   const ContentRow = ({ category, rowKey, isTop10 = false }) => {
+    // Don't render rows with no content
+    if (!category.items || category.items.length === 0) return null;
+    
     const { canScrollLeft, canScrollRight } = useCanScroll(rowKey);
 
     return (
@@ -349,6 +382,21 @@ const TVShows = () => {
     );
   };
 
+  // Get filtered categories
+  const filteredTvDramas = filterShowsByGenre(tvShows.tvDramas);
+  const filteredTrending = filterShowsByGenre(tvShows.trending);
+  const filteredPopular = filterShowsByGenre(tvShows.popular);
+  const filteredNewReleases = filterShowsByGenre(tvShows.newReleases);
+  const filteredTop10 = filterShowsByGenre(tvShows.top10);
+
+  // Check if we have any results after filtering
+  const hasResults = 
+    hasCategoryItems(filteredTvDramas) || 
+    hasCategoryItems(filteredTrending) || 
+    hasCategoryItems(filteredPopular) || 
+    hasCategoryItems(filteredNewReleases) || 
+    hasCategoryItems(filteredTop10);
+
   return (
     <div className="bg-black min-h-screen pb-10">
       {/* Featured Content Banner */}
@@ -439,33 +487,60 @@ const TVShows = () => {
 
       {/* Content */}
       <div>
-        {/* Genre filter indicator */}
+        {/* Genre filter indicator and results info */}
         {selectedGenre !== 'All Genres' && (
           <div className="px-4 md:px-16 mb-4">
-            <h2 className="text-white text-lg font-medium">
-              <span className="text-gray-400">Genre:</span> {selectedGenre}
-            </h2>
+            <div className="flex justify-between items-center">
+              <h2 className="text-white text-lg font-medium">
+                <span className="text-gray-400">Genre:</span> {selectedGenre}
+              </h2>
+              {!hasResults && (
+                <button 
+                  className="text-blue-400 hover:underline text-sm"
+                  onClick={() => setSelectedGenre('All Genres')}
+                >
+                  Clear filter
+                </button>
+              )}
+            </div>
           </div>
         )}
         
+        {/* No results message */}
+        {selectedGenre !== 'All Genres' && !hasResults && (
+          <div className="px-4 md:px-16 py-10">
+            <div className="text-center">
+              <h3 className="text-white text-xl font-medium mb-2">No titles found for "{selectedGenre}"</h3>
+              <p className="text-gray-400 mb-4">Try selecting a different genre or clearing your filter</p>
+              <button 
+                className="bg-white text-black px-4 py-2 rounded font-medium"
+                onClick={() => setSelectedGenre('All Genres')}
+              >
+                View All TV Shows
+              </button>
+            </div>
+          </div>
+        )}
+        
+        {/* Content Rows */}
         <ContentRow 
-          category={filterShowsByGenre(tvShows.tvDramas)} 
+          category={filteredTvDramas} 
           rowKey="tvDramas" 
         />
         <ContentRow 
-          category={filterShowsByGenre(tvShows.trending)} 
+          category={filteredTrending} 
           rowKey="trending" 
         />
         <ContentRow 
-          category={filterShowsByGenre(tvShows.popular)} 
+          category={filteredPopular} 
           rowKey="popular" 
         />
         <ContentRow 
-          category={filterShowsByGenre(tvShows.newReleases)} 
+          category={filteredNewReleases} 
           rowKey="newReleases" 
         />
         <ContentRow 
-          category={filterShowsByGenre(tvShows.top10)} 
+          category={filteredTop10} 
           rowKey="top10" 
           isTop10={true}
         />
