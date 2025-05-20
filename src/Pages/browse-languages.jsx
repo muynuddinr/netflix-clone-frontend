@@ -276,49 +276,13 @@ const BrowseLanguages = () => {
     });
   };
 
-  // Check if a row can be scrolled
-  const useCanScroll = (rowKey) => {
-    const [canScrollLeft, setCanScrollLeft] = useState(false);
-    const [canScrollRight, setCanScrollRight] = useState(false);
-
-    useEffect(() => {
-      const checkScrollability = () => {
-        const container = rowRefs.current[rowKey];
-        if (!container) return;
-
-        setCanScrollLeft(container.scrollLeft > 10);
-        setCanScrollRight(
-          container.scrollLeft < container.scrollWidth - container.clientWidth - 10
-        );
-      };
-
-      const container = rowRefs.current[rowKey];
-      if (container) {
-        checkScrollability();
-        container.addEventListener('scroll', checkScrollability);
-        window.addEventListener('resize', checkScrollability);
-      }
-
-      return () => {
-        if (container) {
-          container.removeEventListener('scroll', checkScrollability);
-        }
-        window.removeEventListener('resize', checkScrollability);
-      };
-    }, [rowKey]);
-
-    return { canScrollLeft, canScrollRight };
-  };
-
   // Netflix-style content row with horizontal scrolling
   const ContentRow = ({ category, rowKey }) => {
     // Don't render rows with no content
     if (!category.items || category.items.length === 0) return null;
-    
-    const { canScrollLeft, canScrollRight } = useCanScroll(rowKey);
 
     return (
-      <div className="mb-8 relative group">
+      <div className="mb-8 relative">
         <h2 className="text-white text-lg md:text-xl font-medium px-4 md:px-16 mb-1">{category.title}</h2>
         <div className="relative">
           <div
@@ -328,7 +292,7 @@ const BrowseLanguages = () => {
             {category.items.map((item, index) => (
               <div
                 key={index}
-                className="flex-none relative group/item min-w-[170px] sm:min-w-[190px] md:min-w-[210px] aspect-[2/3] cursor-pointer transition-all duration-300 hover:z-10 hover:scale-105"
+                className="flex-none relative group/item min-w-[180px] sm:min-w-[200px] md:min-w-[240px] h-[100px] sm:h-[113px] md:h-[135px] cursor-pointer transition-all duration-300 hover:z-10 hover:scale-105"
               >
                 <img
                   src={item.image}
@@ -372,34 +336,6 @@ const BrowseLanguages = () => {
               </div>
             ))}
           </div>
-          
-          {/* Left scroll arrow */}
-          {canScrollLeft && (
-            <button
-              className="absolute left-0 top-0 bottom-0 z-10 w-12 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              onClick={() => scroll(rowKey, 'left')}
-            >
-              <div className="bg-black/60 rounded-full p-1">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-              </div>
-            </button>
-          )}
-          
-          {/* Right scroll arrow */}
-          {canScrollRight && (
-            <button
-              className="absolute right-0 top-0 bottom-0 z-10 w-12 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              onClick={() => scroll(rowKey, 'right')}
-            >
-              <div className="bg-black/60 rounded-full p-1">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </div>
-            </button>
-          )}
         </div>
       </div>
     );
