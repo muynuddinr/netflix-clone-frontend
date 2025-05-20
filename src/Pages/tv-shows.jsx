@@ -50,8 +50,8 @@ const TVShows = () => {
       title: "TV Dramas",
       items: [
         {
-          title: "The Royals",
-          image: "https://image.tmdb.org/t/p/w500/4LrF5lohh4nP2PkZwpEqXhIhVnm.jpg",
+          title: "Baki hanma",
+          image: "Shows/baki hanma.jpg",
           tag: "Recently added",
           genres: ["Dramas", "British"]
         },
@@ -71,14 +71,14 @@ const TVShows = () => {
           genres: ["Asian", "Horror", "Dramas"]
         },
         {
-          title: "Happiness",
-          image: "https://image.tmdb.org/t/p/w500/gzxwRzBBGXesq4uVo7Jz2Rj5OvY.jpg",
+          title: "Black Clover",
+          image: "Shows/black clover.webp",
           tag: "Recently added",
           genres: ["Asian", "Dramas", "Romance"]
         },
         {
-          title: "Narcos",
-          image: "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5nEWNtHoA4B2mBHF.jpg",
+          title: "You",
+          image: "Shows/you.jpg",
           genres: ["Crime", "Dramas", "Action"]
         }
       ]
@@ -88,7 +88,7 @@ const TVShows = () => {
       items: [
         {
           title: "Queen of Tears",
-          image: "https://image.tmdb.org/t/p/w500/2akQNQN7fmqWq6jYJMB3UNSQxJ1.jpg",
+          image: "Shows/queen of tears.jpg",
           tag: "New",
           genres: ["Asian", "Romance", "Dramas"]
         },
@@ -114,8 +114,8 @@ const TVShows = () => {
       title: "Popular on Netflix",
       items: [
         {
-          title: "Bridgerton",
-          image: "https://image.tmdb.org/t/p/w500/6A5D5bJP2y2aYpOYJPLJXF4xXUK.jpg",
+          title: "My name",
+          image: "Shows/my name.jpg",
           genres: ["Romance", "Dramas", "British"]
         },
         {
@@ -129,8 +129,8 @@ const TVShows = () => {
           genres: ["Asian", "Thrillers", "Action"]
         },
         {
-          title: "The Crown",
-          image: "https://image.tmdb.org/t/p/w500/hQwvVmqXhJP6LhKv6qEHBbhxeAf.jpg",
+          title: "Vincenzo",
+          image: "Shows/vincenzo.jpg",
           genres: ["British", "Dramas"]
         }
       ]
@@ -139,20 +139,20 @@ const TVShows = () => {
       title: "New Releases",
       items: [
         {
-          title: "Avatar: The Last Airbender",
-          image: "https://image.tmdb.org/t/p/w500/znUYFf0Sez5lUmxPr3Bg9B1fkX9.jpg",
+          title: "Weak Hero",
+          image: "Shows/weak hero.jpg",
           tag: "New",
           genres: ["Anime", "Action", "Sci-Fi & Fantasy"]
         },
         {
-          title: "3 Body Problem",
-          image: "https://image.tmdb.org/t/p/w500/kqF4qrE3rR4BHZxYwxZumVGzHqn.jpg",
+          title: "Wednesday",
+          image: "Shows/wednesday.jpg",
           tag: "New",
           genres: ["Sci-Fi & Fantasy", "Dramas"]
         },
         {
-          title: "Griselda",
-          image: "https://image.tmdb.org/t/p/w500/tiIfz7pRPIvGBP9wBZzVAQkujHy.jpg",
+          title: "Squid game",
+          image: "Shows/squid game.jpg",
           genres: ["Crime", "Dramas"]
         },
         {
