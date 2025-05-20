@@ -397,38 +397,36 @@ const BrowseLanguages = () => {
       {/* Language Navigation */}
       <div className="sticky top-0 w-full bg-black z-40 border-b border-gray-800">
         <div className="px-4 md:px-16 py-4">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-            <h1 className="text-white text-xl sm:text-2xl font-bold">Browse by Languages</h1>
+          <h1 className="text-white text-xl sm:text-2xl font-bold mb-6">Browse by Languages</h1>
+          
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 mt-2">
+            <div className="text-white text-sm">Select Your Preferences</div>
             
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
-              <div className="text-white text-sm">Select Your Preferences</div>
-              
-              <Dropdown 
-                label="Original Language"
-                options={['Original Language', 'Dubbing', 'Subtitles', ...languages.filter(lang => lang !== 'All Languages')]}
-                isOpen={isOriginalLanguageOpen}
-                setIsOpen={setIsOriginalLanguageOpen}
-                refKey="originalLanguage"
-              />
-              
-              <Dropdown 
-                label="English"
-                options={audioOptions}
-                isOpen={isAudioLanguageOpen}
-                setIsOpen={setIsAudioLanguageOpen}
-                refKey="audioLanguage"
-              />
-              
-              <div className="text-white text-sm ml-0 sm:ml-2">Sort by</div>
-              
-              <Dropdown 
-                label="Suggestions For You"
-                options={sortOptions}
-                isOpen={isSortByOpen}
-                setIsOpen={setIsSortByOpen}
-                refKey="sortBy"
-              />
-            </div>
+            <Dropdown 
+              label="Original Language"
+              options={['Original Language', 'Dubbing', 'Subtitles', ...languages.filter(lang => lang !== 'All Languages')]}
+              isOpen={isOriginalLanguageOpen}
+              setIsOpen={setIsOriginalLanguageOpen}
+              refKey="originalLanguage"
+            />
+            
+            <Dropdown 
+              label="English"
+              options={audioOptions}
+              isOpen={isAudioLanguageOpen}
+              setIsOpen={setIsAudioLanguageOpen}
+              refKey="audioLanguage"
+            />
+            
+            <div className="text-white text-sm ml-0 sm:ml-2">Sort by</div>
+            
+            <Dropdown 
+              label="Suggestions For You"
+              options={sortOptions}
+              isOpen={isSortByOpen}
+              setIsOpen={setIsSortByOpen}
+              refKey="sortBy"
+            />
           </div>
         </div>
       </div>
