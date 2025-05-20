@@ -17,7 +17,7 @@ const MyList = () => {
         },
         {
           title: "Queen of Tears",
-          image: "https://image.tmdb.org/t/p/w500/2akQNQN7fmqWq6jYJMB3UNSQxJ1.jpg",
+          image: "Shows/queen of tears.jpg",
           dateAdded: "Added on Apr 13"
         },
         {

@@ -66,8 +66,8 @@ const Movies = () => {
           genres: ["Romance", "Comedy"]
         },
         {
-          title: "Migration",
-          image: "https://image.tmdb.org/t/p/w500/kZpZL3uZ5BzCXSZSO4Vz0LtO8dG.jpg",
+          title: "Amaran",
+          image: "Movies/amaran.webp",
           genres: ["Animation", "Family", "Comedy", "Adventure"]
         }
       ]
@@ -172,13 +172,13 @@ const Movies = () => {
           genres: ["Drama", "Thriller", "Comedy"]
         },
         {
-          title: "The Shape of Water",
-          image: "https://image.tmdb.org/t/p/w500/k4FwHlMhuRR5BISY2Gm2QZidnA.jpg",
+          title: "Hi Papa",
+          image: "Movies/hi papa.webp",
           genres: ["Drama", "Fantasy", "Romance"]
         },
         {
-          title: "Nomadland",
-          image: "https://image.tmdb.org/t/p/w500/qfLpiXGV93x7PGdkJ8kYQC1vM0R.jpg",
+          title: "Time Cut",
+          image: "Movies/time cut.jpg",
           genres: ["Drama"]
         }
       ]

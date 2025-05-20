@@ -3,26 +3,18 @@ import React, { useRef, useState, useEffect } from 'react';
 const News = () => {
   const rowRefs = useRef({});
 
-  const featuredContent = {
-    title: "The Royals",
-    description: "Experience the dramatic world of modern monarchy where power, privilege, and passion collide in this compelling series about royal family dynamics.",
-    image: "https://image.tmdb.org/t/p/original/4LrF5lohh4nP2PkZwpEqXhIhVnm.jpg",
-    rating: "TV-MA",
-    tag: "Recently added"
-  };
-
   const content = {
     newOnNetflix: {
       title: "New on Netflix",
       items: [
         {
-          title: "The Royals",
-          image: "https://image.tmdb.org/t/p/w500/4LrF5lohh4nP2PkZwpEqXhIhVnm.jpg",
+          title: "Animal",
+          image: "Home/animal.webp",
           tag: "New"
         },
         {
           title: "The Diplomat",
-          image: "https://image.tmdb.org/t/p/w500/jv7lyPfBC1heKtQUxAJTvdXHUk2.jpg",
+          image: "Home/the diplomate.webp",
           tag: "Top 10"
         },
         {
@@ -31,13 +23,13 @@ const News = () => {
           tag: "New"
         },
         {
-          title: "Dear Happiness",
-          image: "https://image.tmdb.org/t/p/w500/znUYFf0Sez5lUmxPr3Bg9B1fkX9.jpg",
+          title: "When life gives you tangerines",
+          image: "Home/when life gives you tangerines.jpg",
           tag: "New"
         },
         {
           title: "YOU",
-          image: "https://image.tmdb.org/t/p/w500/yY4VhP7VPE0LwNlTJpvVX6bWYsA.jpg",
+          image: "Shows/you.jpg",
           tag: "New Season"
         },
         {
@@ -58,7 +50,7 @@ const News = () => {
         },
         {
           title: "The Royals",
-          image: "https://image.tmdb.org/t/p/w500/4LrF5lohh4nP2PkZwpEqXhIhVnm.jpg",
+          image: "Home/the royals.jpg",
           rank: 2,
           tag: "Recently added"
         },
@@ -75,8 +67,8 @@ const News = () => {
           tag: "Recently added"
         },
         {
-          title: "1884",
-          image: "https://image.tmdb.org/t/p/w500/8Yv0tZv2LhtjQF7bGTxJtnSUBah.jpg",
+          title: "The Walking Dead",
+          image: "Shows/the walking dead.webp",
           rank: 5,
           tag: "Recently added"
         },
@@ -92,14 +84,14 @@ const News = () => {
       title: "Coming This Week",
       items: [
         {
-          title: "Prom Queen",
-          image: "https://image.tmdb.org/t/p/w500/tiIfz7pRPIvGBP9wBZzVAQkujHy.jpg",
+          title: "The Vampir Diaries",
+          image: "Shows/the vampire diaries.webp",
           tag: "Coming Soon",
           date: "May 22"
         },
         {
-          title: "The Tylenol Murders",
-          image: "https://image.tmdb.org/t/p/w500/kqF4qrE3rR4BHZxYwxZumVGzHqn.jpg",
+          title: "Sakamoto Days",
+          image: "Shows/sakomoto days.jpg",
           tag: "Coming Soon",
           date: "May 23"
         },
@@ -110,8 +102,8 @@ const News = () => {
           date: "May 24"
         },
         {
-          title: "The Aristocrat's Adventure",
-          image: "https://image.tmdb.org/t/p/w500/8Yv0tZv2LhtjQF7bGTxJtnSUBah.jpg",
+          title: "Lock and Key",
+          image: "Shows/lock and key.jpg",
           tag: "Coming Soon",
           date: "May 25"
         }
@@ -293,37 +285,6 @@ const News = () => {
 
   return (
     <div className="bg-black min-h-screen pb-10">
-      {/* Featured Content Banner */}
-      <div className="relative h-[60vh] sm:h-[56.25vw] max-h-[720px]">
-        <img 
-          src={featuredContent.image}
-          alt={featuredContent.title}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-16 space-y-2 md:space-y-4">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">{featuredContent.title}</h1>
-          <p className="text-white text-sm md:text-base max-w-lg line-clamp-3 md:line-clamp-none">{featuredContent.description}</p>
-          <div className="flex items-center gap-2 sm:gap-4">
-            <button className="bg-white text-black px-4 sm:px-6 md:px-8 py-1.5 sm:py-2 rounded text-sm sm:text-base font-medium flex items-center gap-2 hover:bg-white/90">
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-              Play
-            </button>
-            <button className="bg-gray-500/70 text-white px-4 sm:px-6 md:px-8 py-1.5 sm:py-2 rounded text-sm sm:text-base font-medium flex items-center gap-2 hover:bg-gray-500/50">
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              More Info
-            </button>
-          </div>
-          <div className="absolute top-2 right-2 md:top-4 md:right-4 text-white bg-black/50 px-1.5 py-0.5 rounded text-xs">
-            {featuredContent.rating}
-          </div>
-        </div>
-      </div>
-
       {/* Navigation */}
       <div className="sticky top-0 w-full bg-black z-40 p-4 md:px-16">
         <div className="flex items-center justify-between">

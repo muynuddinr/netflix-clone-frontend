@@ -98,14 +98,14 @@ const BrowseLanguages = () => {
           language: "German"
         },
         {
-          title: "3 Body Problem",
-          image: "https://image.tmdb.org/t/p/w500/kqF4qrE3rR4BHZxYwxZumVGzHqn.jpg",
+          title: "Devara",
+          image: "Movies/devara.webp",
           language: "Chinese",
           tag: "New"
         },
         {
-          title: "Lupin",
-          image: "https://image.tmdb.org/t/p/w500/sgxawbFB5Vi5OkPWYrawSDb2YRr.jpg",
+          title: "The Call",
+          image: "Movies/the call.jpg",
           language: "French"
         },
         {
@@ -120,7 +120,7 @@ const BrowseLanguages = () => {
       items: [
         {
           title: "Queen of Tears",
-          image: "https://image.tmdb.org/t/p/w500/2akQNQN7fmqWq6jYJMB3UNSQxJ1.jpg",
+          image: "Shows/queen of tears.jpg",
           language: "Korean",
           tag: "New"
         },
@@ -130,13 +130,13 @@ const BrowseLanguages = () => {
           language: "Korean"
         },
         {
-          title: "Train to Busan",
-          image: "https://image.tmdb.org/t/p/w500/2oRRTPNtozgPhOa9CY8XHVq447v.jpg",
+          title: "Shaitan",
+          image: "Movies/shaitan.webp",
           language: "Korean"
         },
         {
           title: "The Glory",
-          image: "https://image.tmdb.org/t/p/w500/nYLhWgGSPKlBxKwaD8SJeNxoBgZ.jpg",
+          image: "Home/the glory.jpg",
           language: "Korean"
         },
         {
@@ -145,8 +145,8 @@ const BrowseLanguages = () => {
           language: "Korean"
         },
         {
-          title: "Extraordinary Attorney Woo",
-          image: "https://image.tmdb.org/t/p/w500/gCa0yTHZBZN8MKp7t4pKSKxHlTQ.jpg",
+          title: "the jumanji next level",
+          image: "Movies/jumanji the next level.webp",
           language: "Korean"
         }
       ]
@@ -171,8 +171,8 @@ const BrowseLanguages = () => {
           language: "Spanish"
         },
         {
-          title: "Who Killed Sara?",
-          image: "https://image.tmdb.org/t/p/w500/o7uk5ChRt3quPIv8PcvPfB9FXrs.jpg",
+          title: "Breaking Bad",
+          image: "Shows/breaking bad.webp",
           language: "Spanish"
         },
         {
@@ -196,8 +196,8 @@ const BrowseLanguages = () => {
           language: "Japanese"
         },
         {
-          title: "The Naked Director",
-          image: "https://image.tmdb.org/t/p/w500/tGfTb0o64Za4ooA0FBbOYRxK2vw.jpg",
+          title: "Wednesday",
+          image: "Shows/wednesday.jpg",
           language: "Japanese"
         },
         {
@@ -217,8 +217,8 @@ const BrowseLanguages = () => {
       title: "French Movies & Shows",
       items: [
         {
-          title: "Lupin",
-          image: "https://image.tmdb.org/t/p/w500/sgxawbFB5Vi5OkPWYrawSDb2YRr.jpg",
+          title: "Spy x Family",
+          image: "Shows/spy family.webp",
           language: "French"
         },
         {
@@ -227,13 +227,13 @@ const BrowseLanguages = () => {
           language: "French"
         },
         {
-          title: "Marianne",
-          image: "https://image.tmdb.org/t/p/w500/8UTgdTXwtHzQt9M2w9tUwJxG2F5.jpg",
+          title: "Devil may cry",
+          image: "Shows/devil may cry.jpg",
           language: "French"
         },
         {
-          title: "The Hook Up Plan",
-          image: "https://image.tmdb.org/t/p/w500/tmM8bXW4j0IPHVCcfc925GTTgR.jpg",
+          title: "Business proposal",
+          image: "Shows/business proposal.jpg",
           language: "French"
         }
       ]
