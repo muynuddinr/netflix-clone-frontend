@@ -6,29 +6,30 @@ const Suggestion = () => {
       title: "Blockbuster Movies",
       items: [
         {
-          title: "Kraven the Hunter",
-          image: "https://image.tmdb.org/t/p/w500/bQS43HSLZzMjZkcHJz4fGc7fNdz.jpg",
+          title: "All of us Are Dead",
+          image: "Home/all of us are dead.jpg",
           tag: "New"
         },
         {
-          title: "The Meg",
-          image: "https://image.tmdb.org/t/p/w500/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg"
+          title: "Animal",
+          image: "Home/animal.webp",
         },
         {
-          title: "The Greatest of All Time",
-          image: "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg"
+          title: "Bloodhounds",
+          image: "Home/bloodhounds.jpg",
         },
         {
-          title: "Kalki",
-          image: "https://image.tmdb.org/t/p/w500/jGKCpt3zzbGZbgoza6HUb5P2pz3.jpg"
+          title: "crash landing on you",
+          image: "Home/crash landind on you.jpg",
+          
         },
         {
-          title: "Salaar",
-          image: "https://image.tmdb.org/t/p/w500/9xvEhUqR8e6cJgutwV7UD4lOhHy.jpg"
+          title: "Dabba cartel",
+          image: "Home/dabba cartel.jpg",
         },
         {
-          title: "Indian 2",
-          image: "https://image.tmdb.org/t/p/w500/7rz3Q2MYYqHtGxSPe1owwwrOtFA.jpg"
+          title: "Deva",
+          image: "Home/deva.webp",
         }
       ]
     },
@@ -36,65 +37,65 @@ const Suggestion = () => {
       title: "Because you watched The Railway Men - The Untold Story Of Bhopal 1984",
       items: [
         {
-          title: "The Royals",
-          image: "https://image.tmdb.org/t/p/w500/4LrF5lohh4nP2PkZwpEqXhIhVnm.jpg",
+          title: "Do Patti",
+          image: "Home/do patti.jpg",
           tag: "Recently added"
         },
         {
-          title: "The Diplomat",
-          image: "https://image.tmdb.org/t/p/w500/jv7lyPfBC1heKtQUxAJTvdXHUk2.jpg",
+          title: "Gunjan Saxena",
+          image: "Home/gunjan skasena.jpg",
           tag: "Recently added"
         },
         {
-          title: "Lucky Baskhar",
-          image: "https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg"
+          title: "Its ok to not be ok",
+          image: "Home/its ok to not be okay.jpg",
         },
         {
-          title: "Court",
-          image: "https://image.tmdb.org/t/p/w500/zQnvqEZHHVGgYCFHE8ARJxJEKvL.jpg"
+          title: "jujutsu kaisen",
+          image: "Home/jujutsu kaisen.webp",
         },
         {
-          title: "Delhi Crime",
-          image: "https://image.tmdb.org/t/p/w500/ym2vKqNrAzH8FeZ0tZKMBxJkGXR.jpg"
+          title: "lookism",
+          image: "Home/lookism.jpg"
+          
         },
         {
-          title: "IC 814",
-          image: "https://image.tmdb.org/t/p/w500/8Yv0tZv2LhtjQF7bGTxJtnSUBah.jpg"
+          title: "Komi Can't Communicate",
+          image: "Home/komin cant communicate.jpg"
         }
       ]
     },
     continueWatching: {
-      title: "Continue Watching for muynuddinr",
+      title: "Continue Watching for saniya",
       items: [
         {
-          title: "Black Clover",
-          image: "https://image.tmdb.org/t/p/w500/5ZqKgezwwpYLqkHpWDV5ZVrCz0G.jpg",
+          title: "lucifer",
+          image: "Home/lucifer.jpg",
           progress: 45
         },
         {
-          title: "CID",
-          image: "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+          title: "lucky bhaskar",
+          image: "Home/lucky bhaskar.webp",
           progress: 70,
-          tag: "New Episode"
         },
         {
-          title: "Khel Khel Mein",
-          image: "https://image.tmdb.org/t/p/w500/pWsRu8eAYYe6WN9I4DJsNGIV5FS.jpg",
+          title: "Money Heist",
+          image: "Home/money heist.jpg",
           progress: 30
         },
         {
-          title: "IT",
-          image: "https://image.tmdb.org/t/p/w500/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+          title: "parasyte",
+          image: "Home/parasyte.webp",
           progress: 55
         },
         {
           title: "PK",
-          image: "https://image.tmdb.org/t/p/w500/6lgk0Yj5iLvjPLp5YgTCbB7DPTL.jpg",
+          image: "Home/pk.webp",
           progress: 80
         },
         {
-          title: "Devara",
-          image: "https://image.tmdb.org/t/p/w500/yKMsxAIqHo5kcVJvLBNnXGe41Yd.jpg",
+          title: "Spy x Family",
+          image: "Home/spy family.webp",
           progress: 25
         }
       ]
@@ -103,28 +104,28 @@ const Suggestion = () => {
       title: "East Asian TV Comedies",
       items: [
         {
-          title: "Queen of Tears",
-          image: "https://image.tmdb.org/t/p/w500/2akQNQN7fmqWq6jYJMB3UNSQxJ1.jpg"
+          title: "Stranger Things",
+          image: "Home/stranger things.jpg"
         },
         {
-          title: "Vincenzo",
-          image: "https://image.tmdb.org/t/p/w500/dvXJgEDQXhL9Ouot2WkBHpQiHGd.jpg"
+          title: "The diplomat",
+          image: "Home/the diplomate.webp"
         },
         {
-          title: "My Demon",
-          image: "https://image.tmdb.org/t/p/w500/pZuGxJnRKJuVjGsCxN0jki6Qb6v.jpg"
+          title: "The Glory",
+          image: "Home/the glory.jpg"
         },
         {
-          title: "King the Land",
-          image: "https://image.tmdb.org/t/p/w500/wYwONXkOsJC9gkF2YJIgGVxSuBb.jpg"
+          title: "THe royals",
+          image: "Home/the royals.jpg"
         },
         {
-          title: "Business Proposal",
-          image: "https://image.tmdb.org/t/p/w500/pVHgv6leUqdT3SD2a1bNxQoEWZD.jpg"
+          title: "True Beauty",
+          image: "Home/true beauty.webp"
         },
         {
-          title: "It's Okay to Not Be Okay",
-          image: "https://image.tmdb.org/t/p/w500/42cFVw2hYdDO0p4VZkLjKJc8qzQ.jpg"
+          title: "vinland saga",
+          image: "Home/vindland saga.webp"
         }
       ]
     },
@@ -132,13 +133,13 @@ const Suggestion = () => {
       title: "Trending Now",
       items: [
         {
-          title: "Squid Game",
-          image: "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+          title: "Bad boys ride or die",
+          image: "Movies/bad boys ride or die.webp",
           tag: "Top 10"
         },
         {
-          title: "Bridgerton",
-          image: "https://image.tmdb.org/t/p/w500/6A5D5bJP2y2aYpOYJPLJXF4xXUK.jpg"
+          title: "jigra",
+          image: "Movies/jigra.webp"
         },
         {
           title: "Money Heist",
@@ -158,35 +159,6 @@ const Suggestion = () => {
         }
       ]
     },
-    popularDocumentaries: {
-      title: "Popular Documentaries",
-      items: [
-        {
-          title: "Our Planet",
-          image: "https://image.tmdb.org/t/p/w500/wRSnArnQBmeUYb5GWDU595uHt84.jpg"
-        },
-        {
-          title: "Tiger King",
-          image: "https://image.tmdb.org/t/p/w500/pmjYMCnKtYAHZrRnpKlmDSvRHZJ.jpg"
-        },
-        {
-          title: "Making a Murderer",
-          image: "https://image.tmdb.org/t/p/w500/tF7DZbYZ9jFR0AGR7PaNhQgGRcQ.jpg"
-        },
-        {
-          title: "The Last Dance",
-          image: "https://image.tmdb.org/t/p/w500/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg"
-        },
-        {
-          title: "Formula 1: Drive to Survive",
-          image: "https://image.tmdb.org/t/p/w500/hZZpqv9bwgFBF1LslVQZANXgb49.jpg"
-        },
-        {
-          title: "Chef's Table",
-          image: "https://image.tmdb.org/t/p/w500/tARLEgvOvTHNVwpnQWfT1HqgJQI.jpg"
-        }
-      ]
-    },
     awardWinningFilms: {
       title: "Award-Winning Films",
       items: [
@@ -199,8 +171,8 @@ const Suggestion = () => {
           image: "https://image.tmdb.org/t/p/w500/mbm8k3GFhXS0ROd9AD1gqYbIFbM.jpg"
         },
         {
-          title: "Roma",
-          image: "https://image.tmdb.org/t/p/w500/dtBCYQxoGwUxkIIh4PJPzCPRyaY.jpg"
+          title: "Tarot",
+          image: "Movies/tarot.webp"
         },
         {
           title: "Marriage Story",
@@ -225,7 +197,6 @@ const Suggestion = () => {
     continueWatching: useRef(null),
     eastAsianTVComedies: useRef(null),
     trendingNow: useRef(null),
-    popularDocumentaries: useRef(null),
     awardWinningFilms: useRef(null)
   };
 
@@ -362,12 +333,6 @@ const Suggestion = () => {
         <ContentRow 
           category={suggestions.eastAsianTVComedies} 
           rowRef={rowRefs.eastAsianTVComedies} 
-        />
-        
-        {/* Popular Documentaries Section */}
-        <ContentRow 
-          category={suggestions.popularDocumentaries} 
-          rowRef={rowRefs.popularDocumentaries} 
         />
         
         {/* Award-Winning Films Section */}
